@@ -2,6 +2,11 @@
 
 The purpose of this plugin is to show how to port/use vue apps on Graviton.
 
+## Installing
+
+- Option 1: With [graviton-cli](https://github.com/Graviton-Code-Editor/graviton-cli) , by typing: graviton -i marc2332/vue-plugin-example
+- Option 2: Cloning and installing dependencies manually
+
 
 ## Developing
 
