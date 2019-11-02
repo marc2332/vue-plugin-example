@@ -1,0 +1,13 @@
+{
+    "name": "vue-plugin-example",
+    "version": "0.0.1",
+    "description": "Integrating Vue on Graviton",
+    "author": "Marc Espin",
+    "main": "main.js",
+    "css": [
+        "./dist/css/app.d51b5170.css"
+    ],
+    "dependencies": {
+        "require-dir": "^1.2.0"
+    }
+}
