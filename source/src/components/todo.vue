@@ -1,7 +1,7 @@
 <template>
-  <div v-bind:class="{'done':todo.done}" >
+  <div class="todo" v-bind:class="{'done':todo.done}" >
+  <input type="checkbox" v-on:change="markDone"> 
     <h3 >{{todo.title}}</h3>
-    <input type="checkbox" v-on:change="markDone"> 
   </div>
 </template>
 
@@ -22,7 +22,23 @@ export default {
 </script>
 
 <style >
+    .todo input{
+      margin:auto 20px;
+    }
+    .todo{
+      display:flex;
+      background:var(--primaryColor);
+      color:var(--white-black);
+      padding:10px;
+      margin:10px 5px;
+      border-radius:10px;
+      box-shadow:0px 2px 5px var(--shadows)
+    }
+    .todo:hover{
+      cursor:pointer;
+      background:var(--secondaryColor);
+    }
     .done{
-        color:green;
+        color:var(--accentColor);
     }
 </style>

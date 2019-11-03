@@ -5,7 +5,7 @@
     "author": "Marc Espin",
     "main": "main.js",
     "css": [
-        "./dist/css/app.d51b5170.css"
+        "./dist/css/app.5d8e1591.css"
     ],
     "dependencies": {
         "require-dir": "^1.2.0"
